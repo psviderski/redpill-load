@@ -8,8 +8,8 @@
     },
     {
       "name": "acpid.tar.gz",
-      "url": "https://github.com/jumkey/redpill-load/raw/develop/redpill-acpid/acpid.tar.gz",
-      "sha256": "4a635465ff75a5481f2d9aa36fbcf26ff302dc29d2de586a14f1f5b50cf37e0c",
+      "url": "https://github.com/psviderski/redpill-load/raw/develop/redpill-acpid/acpid.tar.gz",
+      "sha256": "81d267f22dd4e8b0182587c6a858f3ed3d63da453ad725e5aa5ffb0459a1a852",
       "packed": false
     },
     {

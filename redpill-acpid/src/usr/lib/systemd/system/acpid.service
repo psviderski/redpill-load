@@ -9,9 +9,9 @@ Type=forking
 Restart=always
 RestartSec=30
 PIDFile=/var/run/acpid.pid
-ExecStartPre=/sbin/modprobe button
+ExecStartPre=/sbin/insmod /lib/modules/button.ko
 ExecStart=/usr/sbin/acpid
-ExecStopPost=/sbin/modprobe -r button
+ExecStopPost=/sbin/rmmod button
 
 [X-Synology]
 Author=Virtualization Team
